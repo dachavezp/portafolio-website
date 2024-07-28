@@ -1,13 +1,13 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/amine_photo_circular.png'
+import heroImg from '../../assets/foto de perfil.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
-import twitterLight from '../../assets/twitter-light.svg'
-import twitterDark from '../../assets/twitter-dark.svg'
+import twitterLight from '../../assets/gmail.png'
+import twitterDark from '../../assets/gmail.png'
 import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
-import linkedinLight from '../../assets/linkedin-light.svg'
-import linkedinDark from '../../assets/linkedin-dark.svg'
+import linkedinLight from '../../assets/linkedin.png'
+import linkedinDark from '../../assets/linkedin.png'
 import resume from '../../assets/resume.pdf'
 import {useTheme} from '../../common/ThemeContext'
 
@@ -22,14 +22,14 @@ function Hero() {
         <div className={styles.colorModeContainer}>
             <img className = {styles.hero}
             src={heroImg} 
-            alt="Profile picture of Amine El Maghraoui"/>
+            alt="Arturo Chavez"/>
             <img src={themeIcon} alt='Theme icon' className={styles.colorMode} onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>
             <h1>
-                Amine
+                Arturo
                 <br/>
-                El Maghraoui
+                Chavez
             </h1>
             <h2>Data Scientist</h2>
             <span>
