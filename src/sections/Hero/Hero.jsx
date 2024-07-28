@@ -31,7 +31,7 @@ function Hero() {
                 <br/>
                 Chavez
             </h1>
-            <h2>Data Scientist</h2>
+            <h2>Data Analyst</h2>
             <span>
                 <a href='mailto:ma.elmaghraoui@gmail.com' target='_blank'>
                     <img src={twitterIcon} alt='Email icon'/>
@@ -44,7 +44,7 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>
-                With a commitment to innovation, I harness the power of AI and data science to drive transformative change.
+            With a strong foundation in business, I harness the power of data to drive transformative and results-focused change within organizations.
             </p>
             <a href={resume} download>
                 <button className='hover'>
