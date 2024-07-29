@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
 import boatCompet from '../../assets/banking.jpg';
-import harmonyland from '../../assets/harmonyland.png';
+import harmonyland from '../../assets/health.jpg';
 import outlier from '../../assets/outlier.png';
 import food from '../../assets/food.png';
 import reactPortfolio from '../../assets/react_project.png';
@@ -17,16 +17,16 @@ function Projects() {
         <ProjectCard 
           src={boatCompet} 
           link={"https://github.com/dachavezp/Banking_analysis_and_modeling"}
-          title={"Banking_analysis_and_modeling"}
+          title={"Churn Analysis"}
           description={"Analysis of customer turnover in the banking industry, use of machine learning model to predict and reduce attrition."}
           technologies={"pandas, numpy, scikit-learn, matplotlib"}
         />
         <ProjectCard 
           src={harmonyland} 
-          link={"https://github.com/Mael-221/HarmonyLand"}
-          title={"HarmonyLand"}
-          description={"Drone Surveillance System for real-time monitoring and threat detection."}
-          technologies={"Scala, Apache Kafka, Apache Spark, Hadoop, AWS"}
+          link={"https://github.com/dachavezp/PREDICTIVE-DISEASE-MACHINE-LEARNING-MODEL-FOR-EFFECTIVE-HEALTH-INSURANCE-MANAGEMENT"}
+          title={"Cancer Detecttion"}
+          description={" This project aims to predict the likelihood of new patients developing cancer, based on their health features"}
+          technologies={"R, Caret, Rpart"}
         />
         <ProjectCard 
           src={outlier} 
