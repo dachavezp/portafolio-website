@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
-import boatCompet from '../../assets/boatcompet.png';
+import boatCompet from '../../assets/banking.jpg';
 import harmonyland from '../../assets/harmonyland.png';
 import outlier from '../../assets/outlier.png';
 import food from '../../assets/food.png';
@@ -16,10 +16,10 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard 
           src={boatCompet} 
-          link={"https://github.com/Mael-221/Boat-Type-Classification-Challenge"}
-          title={"Boat Classification"}
-          description={"Machine learning model for classifying boat types using Kaggle competition data."}
-          technologies={"Python, TensorFlow, Keras"}
+          link={"https://github.com/dachavezp/Banking_analysis_and_modeling"}
+          title={"Banking_analysis_and_modeling"}
+          description={"Analysis of customer turnover in the banking industry, use of machine learning model to predict and reduce attrition."}
+          technologies={"pandas, numpy, scikit-learn, matplotlib"}
         />
         <ProjectCard 
           src={harmonyland} 
