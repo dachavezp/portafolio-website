@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin.png'
 import linkedinDark from '../../assets/linkedin.png'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/Resume David Chavez BU SPARK.pdf'
 import {useTheme} from '../../common/ThemeContext'
 
 function Hero() {
@@ -33,13 +33,13 @@ function Hero() {
             </h1>
             <h2>Data Analyst</h2>
             <span>
-                <a href='mailto:ma.elmaghraoui@gmail.com' target='_blank'>
+                <a href='mailto:darturo.chavez@gmail.com' target='_blank'>
                     <img src={twitterIcon} alt='Email icon'/>
                 </a>
-                <a href='https://github.com/Mael-221' target='_blank'>
+                <a href='https://github.com/dachavezp' target='_blank'>
                     <img src={githubIcon} alt='Github icon'/>
                 </a>
-                <a href='https://www.linkedin.com/in/amine-el-maghraoui/' target='_blank'>
+                <a href='https://www.linkedin.com/in/darturochavezp/' target='_blank'>
                     <img src={linkedinIcon} alt='LinkedIn icon'/>
                 </a>
             </span>
