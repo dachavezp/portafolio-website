@@ -27,9 +27,9 @@ function Hero() {
         </div>
         <div className={styles.info}>
             <h1>
-                Arturo
+                Arturo Chavez 
                 <br/>
-                Chavez
+                Portfolio
             </h1>
             <h2>Data Analyst</h2>
             <span>
@@ -44,7 +44,7 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>
-            With a strong foundation in business, I harness the power of data to drive transformative and results-focused change within organizations.
+            I am Arturo, M.S Data Analytics, my expertise lies in translating intricate Business Requirements into actionable insights, leveraging advanced analytics to uncover valuable trends. I specialize in harnessing machine learning models to enhance efficiency in data transformation processes.
             </p>
             <a href={resume} download>
                 <button className='hover'>
