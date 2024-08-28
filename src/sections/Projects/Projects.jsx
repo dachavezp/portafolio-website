@@ -19,7 +19,7 @@ function Projects() {
           link={"https://risk-app-gr4a9rof2tb2nhzztetwxk.streamlit.app/#arturo-chavez-risk-score-analyzer"}
           title={"RISK PRECICTOR APP"}
           description={"This project predicts the risk of lending moneydetailed analysis of a bank's marketing campaign data."}
-          technologies={"Python, scikit-learn"}
+          technologies={"Python, scikit-learn, streamlit"}
         />
         <ProjectCard 
           src={boatCompet} 
