@@ -15,6 +15,13 @@ function Projects() {
       <h1 className={styles.sectionTitle}>Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard 
+          src={food} 
+          link={"https://risk-app-gr4a9rof2tb2nhzztetwxk.streamlit.app/#arturo-chavez-risk-score-analyzer"}
+          title={"RISK PRECICTOR APP"}
+          description={"This project predicts the risk of lending moneydetailed analysis of a bank's marketing campaign data."}
+          technologies={"Python, scikit-learn"}
+        />
+        <ProjectCard 
           src={boatCompet} 
           link={"https://github.com/dachavezp/Banking_analysis_and_modeling"}
           title={"Churn Analysis"}
